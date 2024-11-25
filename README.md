@@ -20,6 +20,8 @@ mbu/<your_desired_script>.py
 
 ### mbu/copy_files.py
 
+Often times we end up subsetting our collections and need to copy files for this subset to a new directory for additional analysis. This script will simplify that process.
+
 ```
 Copies files from the input directory to the output directory based on sample names and file suffix.
 
