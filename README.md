@@ -1,6 +1,21 @@
 # misc_binfie_utils
 
-## mbu/copy_files.py
+## Installation
+
+You will need python installed. Any version > 3.0  will probably work, I used 3.12.7.
+
+```
+# Clone the git repo
+git clone https://github.com/maxlcummins/misc_binfie_utils.git
+
+# Enter the repo
+cd misc_binfie_utils
+
+# Use the utilities
+python mbu/<your_desired_script>.py
+```
+
+### mbu/copy_files.py
 
 ```
 Copies files from the input directory to the output directory based on sample names and file suffix.
