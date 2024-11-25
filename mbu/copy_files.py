@@ -1,10 +1,9 @@
+#!/usr/bin/env python3
+
 import os
 import sys
 import shutil
 import argparse
-
-#!/usr/bin/env python3
-
 
 def copy_files(input_dir, output_dir, samples_file, file_suffix):
     if not os.path.isdir(input_dir):
