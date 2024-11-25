@@ -11,8 +11,11 @@ git clone https://github.com/maxlcummins/misc_binfie_utils.git
 # Enter the repo
 cd misc_binfie_utils
 
+# Change permissions of scripts
+chmod 755 mbu/*
+
 # Use the utilities
-python mbu/<your_desired_script>.py
+mbu/<your_desired_script>.py
 ```
 
 ### mbu/copy_files.py
